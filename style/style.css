@@ -17,13 +17,43 @@ header{
   width: 100%;
   height: 69px;
   padding: 10px;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  z-index: 1;
 }
 
+/*Header section*/
 header .nav a{
   color: seashell;
   text-decoration: underline;
+}
+
+/*Main section*/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*couldn't center the objects*/
+
+/*Our Mission section*/
+.main .mission{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url(./images/img-mission-background.jpg);
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .mission h2{
+  background-color: black;
+}
+
+.main .mission h4{
+  background-color: black;
 }
