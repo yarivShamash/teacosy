@@ -94,7 +94,8 @@ header .nav a{
 .main .locations{
   background-image: url("./images/img-locations-background.jpg");
   margin: 0 auto;
-  height: 500px;
+  height: 600px; /*I gave the location element 600px height so that more of the
+  tea cup would be shown (as shown in the redline)*/
   width: 1200px;
   flex-direction: column;
   justify-content: center;
@@ -102,9 +103,10 @@ header .nav a{
 }
 
 .main .locations h2{
-  /*position: relative;
-  top: 100px;*/
-  margin: 15 auto;
+  background: none;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 .main .locations .all-locations{
@@ -115,8 +117,38 @@ header .nav a{
 
 .main .locations .all-locations .loc{
   background-color: black;
-  opacity: 0.9;
+  opacity: 1;
   width: 300px;
+  height: 250px;
   margin: 40px;
+}
 
+.main .locations .all-locations .loc h3{
+  margin: 15px auto;
+}
+
+.main .locations .all-locations .loc p{
+  margin: 50px auto;
+}
+/*contact Us section*/
+
+.main .CU{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.main .CU h5{
+  margin: 20px auto;
+}
+
+/*copyright section*/
+.copyright{
+  display: block;
+  text-align: left;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 16px;
 }
