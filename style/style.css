@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+  opacity: 0.9;
+  text-align: center;
+}
