@@ -66,6 +66,7 @@ header .nav a{
   flex-direction: column;
   margin: auto;
   width: 1000px;
+  margin-bottom: 50px;
 }
 
 .main .TOM .headlines{
